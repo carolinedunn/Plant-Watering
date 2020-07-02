@@ -35,6 +35,7 @@ Hardware Assembly from https://www.littlebird.com.au/a/how-to/71/automatic-plant
 8. Connect the VCC from the soil moisture sensor to 3.3v on the Arduino
 9. Connect the red wire from the pump to the NC on the relay
 10. Connect the red wire from the battery pack to COM on the relay
+
 11.Connect negative power rail from the breadboard to GND on the Arduino
 12. Connect the Arduino to the Raspberry Pi via USB
 13. Connect keyboard/mouse and monitor to your Raspberry Pi
