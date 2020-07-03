@@ -23,6 +23,7 @@ Materials:
 - Container filled with water.
 - Casing for electronics (protect from rain) I'm using a 12x12 scrapbook case - https://www.michaels.com/12in-x-12in-clear-scrapbook-case/10373070.html
 - Optional: Soldering iron, flux, and wire
+- <a href="https://github.com/carolinedunn/Plant-Watering/blob/master/tube%20holder2.stl">Tube holder</a>
 
 ## Step 1 - Hardware Assembly
 Hardware Assembly from https://www.littlebird.com.au/a/how-to/71/automatic-plant-watering-with-arduino
