@@ -1,7 +1,7 @@
 int sensor_pin = A0; //signal from the capacitive soil moisture sensor
 int output_value ;  // value of soil moisture
 int pump = 8;      // digital pin where the relay is plugged in
-int threshold = 8;  //threshold value to trigger pump
+int threshold = 5;  //threshold value to trigger pump
 
 void setup() {
   Serial.begin(9600);
@@ -18,19 +18,22 @@ void loop() {
   Serial.print("Moisture : ");
   Serial.print(output_value);    //print the percent of soil moisture - max is 33% if dipped in a cup of water
   Serial.println("%");
-  //delay(300000); //wait 5 minutes before checking again  (switch to this line after testing)
+  //delay(10000); //wait 10 seconds before checking again  (switch to this line after testing)
   delay(1000); //check every 1 second (this is for testing)
   if (output_value < threshold)  //if the soil is try then pump out water for 1 second
     {
     digitalWrite(pump, HIGH);
     Serial.println("pump on");
-    delay(1000);  //run pump for 1 second
+    delay(1000);  //run pump for 1 second;
+    digitalWrite(pump, LOW);
+    Serial.println("pump off");
+    //delay(300000); // Enable this line after testing to wait 5 minutes 
     }
     else
     {
     digitalWrite(pump, LOW);
-    Serial.println("pump off");
-    delay(1000); //wait 1 second
+    Serial.println("do not turn on pump");
+    //delay(300000); // Enable this line after testing to wait 5 minutes 
     }
 }
     
