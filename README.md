@@ -56,7 +56,7 @@ Instructions from - https://magpi.raspberrypi.org/articles/program-arduino-uno-r
 This part focuses on testing your soil moisture sensor
 Code from - https://github.com/BasOnTech/Arduino-Beginners-EN/tree/master/E31-capacitive-soil-moisture-sensor and https://maker.pro/arduino/projects/arduino-soil-moisture-sensor
 1. Start a new project on Arduino IDE
-2. Copy water.ino code to your Arduino IDE and save
+2. Copy <a href="https://github.com/carolinedunn/Plant-Watering/blob/master/water.ino">water.ino</a> to your Arduino IDE
 3. Verify and Upload to your Arduino
 4. Click Tools, then Serial Monitor
 5. Dip the soil moisture sensor in and out of the container of water to watch the values change. Note the value when dipped in water.
@@ -66,7 +66,7 @@ Code from - https://github.com/BasOnTech/Arduino-Beginners-EN/tree/master/E31-ca
 ## Step 4 - Water your plant
 1. Arrange the tubing so that the water flows back into the water container
 2. Start a new project on Arduino IDE
-3. Copy <a href="https://github.com/carolinedunn/Plant-Watering/blob/master/soilwatering.ino">soilwatering.ino code</a> to your Arduino IDE
+3. Copy <a href="https://github.com/carolinedunn/Plant-Watering/blob/master/soilwatering.ino">soilwatering.ino</a> to your Arduino IDE
 4. Verify and Upload to your Arduino
 5. Click Tools, then Serial Monitor
 6. Dip the soil moisture sensor in and out of the container of water to watch the pump turn on and off. Pump should turn on when sensor is out of water and off when sensor is in water.
