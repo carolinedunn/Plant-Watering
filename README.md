@@ -1,27 +1,26 @@
 # Plant-Watering
 
-This project is an automatic plant watering system. Arduino controls the pump based on the soil moisture level read. Raspberry Pi shows you the soil moisture level through the Arduino IDE app.
+This project is an automatic plant watering system. Arduino controls the pump based on the soil moisture level read. Raspberry Pi shows you the soil moisture level through the Arduino IDE app. When the soil moisture drops below the threshold value (default 5), 
 
 Materials:
-- Your potted plant (It is best to start this project with dry soil.)
-- Arduino Uno
-- Male-to-Male Jumper wires
-- Male-to-Female Jumper wires
-- Breadboard
-- Plant watering kit 
+- <a href="https://amzn.to/2BAau65">Your potted plant. I'm using this Bonsai Tree.</a> (It is best to start this project with dry soil.)
+- Arduino Uno - https://amzn.to/2VIyRW5
+- 9V snap connector kit - https://amzn.to/3gsXhur
+  - Battery and battery pack to power the pump (I'm using a 9V battery with snap-on connector and power supply module)
+  - Male-to-Male Jumper wires - https://amzn.to/2TIyXMj
+  - Male-to-Female Jumper wires - https://amzn.to/2TIyXMj
+  - Breadboard - https://amzn.to/2VKjJrd
+- Plant watering kit: - https://amzn.to/31FSpht
   - Relay Module
-  - Soil Moisture sensor (Please use a capacitive soil moisture sensor, instead of a resistive soil moisture sensor)
+  - Soil Moisture sensor (Please use a capacitive soil moisture sensor, NOT a resistive soil moisture sensor)
   - Water pump & tubing
-- Battery and battery pack (I'm using a 9V battery)
-- Small screwdriver
-- Raspberry Pi 4
+- Small screwdriver to unscrew the relay module
+- Raspberry Pi 4 - https://amzn.to/2D4nm4J
   - microSD card formatted with Raspberry Pi OS
-  - Keyboard/mouse/HDMI monitor
-  - power supply for Raspberry Pi (I'm using a USB-C power bank)
-  - HDMI cable to connect RPi to monitor
-- Container filled with water
-- Casing for electronics (protect from rain)
-- Optional: Soldering iron
+  - power supply for Raspberry Pi and Arduino (I'm using a USB-C power bank - https://amzn.to/2VZSitN )
+- Container filled with water.
+- Casing for electronics (protect from rain) I'm using a 12x12 scrapbook case - https://www.michaels.com/12in-x-12in-clear-scrapbook-case/10373070.html
+- Optional: Soldering iron, flux, and wire
 
 ## Step 1 - Hardware Assembly
 Hardware Assembly from https://www.littlebird.com.au/a/how-to/71/automatic-plant-watering-with-arduino
