@@ -1,6 +1,8 @@
 # Plant-Watering
 
-This project is an automatic plant watering system. Arduino controls the pump based on the soil moisture level read. Raspberry Pi shows you the soil moisture level through the Arduino IDE app. When the soil moisture drops below the threshold value (default 5), 
+This project is an automatic plant watering system. Arduino controls the pump based on the soil moisture level read. Raspberry Pi shows you the soil moisture level through the Arduino IDE app. When the soil moisture drops below the threshold value (default 5), water is pumped through the tubing for 1 second.
+
+![ProjectJPG](https://github.com/carolinedunn/Plant-Watering/blob/master/photos/wateringsystemfinal.jpg)
 
 Materials:
 - <a href="https://amzn.to/2BAau65">Your potted plant. I'm using this Bonsai Tree.</a> (It is best to start this project with dry soil.)
