@@ -18,22 +18,23 @@ void loop() {
   Serial.print("Moisture : ");
   Serial.print(output_value);    //print the percent of soil moisture - max is 33% if dipped in a cup of water
   Serial.println("%");
-  //delay(10000); //wait 10 seconds before checking again  (switch to this line after testing)
-  delay(1000); //check every 1 second (this is for testing)
+  delay(1000); //wait 1 second
   if (output_value < threshold)  //if the soil is try then pump out water for 1 second
     {
     digitalWrite(pump, HIGH);
-    Serial.println("pump on");
+    Serial.println("pump on for 1 second");
     delay(1000);  //run pump for 1 second;
     digitalWrite(pump, LOW);
     Serial.println("pump off");
-    //delay(300000); // Enable this line after testing to wait 5 minutes 
+    //delay(300000); //wait 5 minutes before checking again
+    delay(1000);//wait 1 second. This is for testing, uncomment the line above when ready to implement
     }
     else
     {
     digitalWrite(pump, LOW);
     Serial.println("do not turn on pump");
-    //delay(300000); // Enable this line after testing to wait 5 minutes 
+    //delay(300000); //wait 5 minutes
+    delay(1000);// wait 1 second. This is for testing, uncomment the line above when implementing
     }
 }
     
