@@ -36,13 +36,14 @@ Hardware Assembly from https://www.littlebird.com.au/a/how-to/71/automatic-plant
 7. Connect the GND from the soil moisture sensor to GND on the Arduino
 8. Connect the VCC from the soil moisture sensor to 3.3v on the Arduino
 9. Connect the red wire from the pump to the NC on the relay
-10. Connect the red wire from the battery pack to COM on the relay
-11. Connect negative power rail from the breadboard to GND on the Arduino
-12. Connect the Arduino to the Raspberry Pi via USB
-13. Connect keyboard/mouse and monitor to your Raspberry Pi
-14. Connect the water tubing to the pump
-15. Place the pump in a container of water
-16. Power up your Raspberry Pi
+10. Connect the black wire from the pump to the GND rail of your breadboard
+11. Connect the red wire from the battery pack to COM on the relay
+12. Connect negative power rail from the breadboard to GND on the Arduino
+13. Connect the Arduino to the Raspberry Pi via USB
+14. Connect keyboard/mouse and monitor to your Raspberry Pi
+15. Connect the water tubing to the pump
+16. Place the pump in a container of water
+17. Power up your Raspberry Pi
 
 ## Step 2 - Install Arduino on your Raspberry Pi
 Instructions from - https://magpi.raspberrypi.org/articles/program-arduino-uno-raspberry-pi
